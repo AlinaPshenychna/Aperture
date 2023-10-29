@@ -137,7 +137,7 @@ header nav ul li a {
 .section6-black {
   background-color: #000;
 }
-.container {
+.section6-black .container {
    max-width: 1168px;
   margin: auto;
   padding-top: 120px;
