@@ -164,3 +164,26 @@ padding: 40px 46px;
 justify-content: space-between;
 align-items: center;
 }
+.section7 {
+  background-image: url("../image/section7.jpg");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.section7 .container{
+max-width: 254px;
+margin: inherit;
+padding-right: 106px;
+}
+.section7 h3{
+color: #FFF;
+font-size: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+.section7 p {
+color: #C0C0C0;
+font-size: 14px;
+}
