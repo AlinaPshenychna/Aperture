@@ -1,54 +1,99 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 .container {
-    max-width: 1168px;
-    margin: auto;
+  max-width: 1168px;
+  margin: auto;
 }
 header {
-background-color: #181818;
-padding: 24px 0;
+  background-color: #181818;
+  padding: 24px 0;
 }
 header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 32px;
-    padding-right: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 32px;
+  padding-right: 20px;
 }
 .nav-list {
-    display: flex;
-    list-style: none;
-    align-items: center;
+  display: flex;
+  list-style: none;
+  align-items: center;
 }
 header nav ul li {
-    margin-left: 32px;
+  margin-left: 32px;
 }
 header nav li:first-of-type {
-margin-right: 24px;
+  margin-right: 24px;
 }
 header nav li:last-of-type {
-    margin-right: 31px;
+  margin-right: 31px;
 }
-header nav ul li a{
-    color: #FFF;
-    font-family: Poppins;
-    font-style: normal;
-font-weight: 400;
-line-height: 20px;
-text-decoration: none;
-font-size: 15px;
+header nav ul li a {
+  color: #fff;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+  font-size: 15px;
 }
 .link1 {
-font-size: 13px;
+  font-size: 13px;
 }
 .link5 {
-    color: #000;
-    font-size: 16px;
-    letter-spacing: 0.4px;
-    border-radius: 14px;
-background: #FFF;
-padding: 9px 20px 13px 20px;
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  border-radius: 14px;
+  background: #fff;
+  padding: 9px 20px 13px 20px;
+}
+.first-section {
+  background-image: url("../image/main_bg.jpg");
+  background-size: cover;
+  height: calc(100vh - 83px);
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  padding-bottom: 71px;
+}
+.first-section .container {
+  max-width: 580px;
+  text-align: center;
+  margin: inherit;
+}
+.first-section h3 {
+  color: #c0c0c0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+}
+.first-section h1 {
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 59.4px;
+  margin-bottom: 18px;
+}
+.sect1-parag {
+  color: #c0c0c0;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
 }
