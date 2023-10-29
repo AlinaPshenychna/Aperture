@@ -3,6 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
 .container {
   max-width: 1168px;
   margin: auto;
@@ -34,10 +40,6 @@ header nav li:last-of-type {
 }
 header nav ul li a {
   color: #fff;
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
   text-decoration: none;
   font-size: 15px;
 }
@@ -69,11 +71,7 @@ header nav ul li a {
 .first-section h3 {
   color: #c0c0c0;
   text-align: center;
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   margin-bottom: 1px;
@@ -81,31 +79,58 @@ header nav ul li a {
 .first-section h1 {
   color: #fff;
   text-align: center;
-  font-family: Poppins;
   font-size: 54px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 59.4px;
   margin-bottom: 18px;
 }
 .sect1-parag {
   color: #c0c0c0;
   text-align: center;
-  font-family: Poppins;
   font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 20px;
 }
 .third-section-mountain {
   background-image: url("../image/section3_mountain.jpg");
+  background-size: cover;
+  min-height: 600px;
   display: flex;
-  justify-content: center;
-  align-items: end;
+  justify-content: end;
+  align-items: center;
 }
 .third-section-mountain .container {
   max-width: 298px;
-  min-height: 600px;
-  text-align: center;
   margin: inherit;
+}
+.third-section-mountain h2 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.third-section-mountain p {
+  color: #c0c0c0;
+  font-size: 14px;
+  padding-right: 62px;
+}
+.section5-leaves {
+  background-image: url("../image/section5.jpg");
+  background-size: cover;
+  min-height: 600px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.section5-leaves .container {
+  max-width: 273px;
+  margin: inherit;
+}
+.section5-leaves h3 {
+  color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.section5-leaves p {
+  color: #c0c0c0;
+  font-size: 14px;
+  padding-right: 87px;
 }
