@@ -62,6 +62,7 @@ header nav ul li a {
   align-items: end;
   justify-content: center;
   padding-bottom: 71px;
+  position: relative;
 }
 .first-section .container {
   max-width: 580px;
@@ -88,6 +89,46 @@ header nav ul li a {
   text-align: center;
   font-size: 14px;
 }
+.icon{
+  position: absolute;
+ display: flex;
+right: 40px;
+bottom: 41px;
+}
+.icon li {
+  color: #FFF;
+font-size: 12px;
+line-height: 12px;
+list-style: none;
+margin-left: 16px;
+}
+.icon li:before{
+  display: inline-block;
+  content: "";
+  background-image: url("../image/icon2.svg");
+  width: 16px;
+  height: 16px;
+  margin-right: 6px;
+  margin-bottom: -5px;
+}
+.icon li:nth-of-type(2):before {
+background-image: url("../image/icon1.svg");
+}
+.icon li:nth-of-type(3):before {
+background-image: url("../image/icon3.svg");
+margin-right: 7px;
+width: 32px;
+}
+.icon li:last-child:before {
+background-image: url("../image/icon4.svg");
+width: 10px;
+margin-right: 5px;
+}
+
+
+
+
+
 .third-section-mountain {
   background-image: url("../image/section3_mountain.jpg");
   background-size: cover;
