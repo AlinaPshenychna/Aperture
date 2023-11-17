@@ -125,7 +125,76 @@ header nav ul li a {
   width: 10px;
   margin-right: 5px;
 }
-
+.what-we-do {
+  background-color: #000;
+}
+.what-we-do h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  line-height: 42px;
+  padding-bottom: 15px;
+  padding-top: 113px;
+}
+.what-we-do h3 {
+  color: #c0c0c0;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+.what-we-do-gali {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 576px;
+}
+.what-gali1 {
+  margin-bottom: 16px;
+  position: relative;
+}
+.what-gali1 img {
+  width: 100%;
+  display: block;
+}
+.what-we-do-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+.what-we-do-text h4 {
+  color: #fff;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.what-we-do-text p {
+  color: #c0c0c0;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 15px;
+}
+.gali-link {
+  display: flex;
+  align-items: center;
+  border-radius: 14px;
+  background: #fff;
+  text-decoration: none;
+  max-width: 143px;
+}
+.gali-link img {
+  width: 32px;
+  height: 32px;
+  margin: 2px 0px 2px 4px;
+}
+.gali-link span {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding: 9px 10px 13px 6px;
+}
 .third-section-mountain {
   background-image: url("../image/section3_mountain.jpg");
   background-size: cover;
