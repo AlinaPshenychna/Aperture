@@ -89,20 +89,21 @@ header nav ul li a {
   text-align: center;
   font-size: 14px;
 }
-.icon{
+.icon {
   position: absolute;
- display: flex;
-right: 40px;
-bottom: 41px;
+  display: flex;
+  right: 40px;
+  bottom: 41px;
+  z-index: 3;
 }
 .icon li {
-  color: #FFF;
-font-size: 12px;
-line-height: 12px;
-list-style: none;
-margin-left: 16px;
+  color: #fff;
+  font-size: 12px;
+  line-height: 12px;
+  list-style: none;
+  margin-left: 16px;
 }
-.icon li:before{
+.icon li:before {
   display: inline-block;
   content: "";
   background-image: url("../image/icon2.svg");
@@ -112,22 +113,18 @@ margin-left: 16px;
   margin-bottom: -5px;
 }
 .icon li:nth-of-type(2):before {
-background-image: url("../image/icon1.svg");
+  background-image: url("../image/icon1.svg");
 }
 .icon li:nth-of-type(3):before {
-background-image: url("../image/icon3.svg");
-margin-right: 7px;
-width: 32px;
+  background-image: url("../image/icon3.svg");
+  margin-right: 7px;
+  width: 32px;
 }
 .icon li:last-child:before {
-background-image: url("../image/icon4.svg");
-width: 10px;
-margin-right: 5px;
+  background-image: url("../image/icon4.svg");
+  width: 10px;
+  margin-right: 5px;
 }
-
-
-
-
 
 .third-section-mountain {
   background-image: url("../image/section3_mountain.jpg");
@@ -151,6 +148,73 @@ margin-right: 5px;
   color: #c0c0c0;
   font-size: 14px;
   padding-right: 62px;
+}
+
+.section4-photo {
+  background-color: #000;
+  min-height: 540px;
+  position: relative;
+}
+.section4-photo:after {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  content: "";
+  display: block;
+  background-size: cover;
+  background-image: url("../image/section4-photo.png");
+}
+/* after не работает без двух св-в  content: ""; display: block; */
+.section4-photo .container {
+  max-width: 1240px;
+  display: flex;
+  align-items: center;
+}
+/* по сторонам было 100пх от 1440 отняли 200 получилось 1240 */
+.section4-photo .container article {
+  max-width: 514px;
+  padding-top: 173px;
+}
+.photo-left h3 {
+  color: #c0c0c0;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 6px;
+}
+.par1 {
+  color: #fff;
+  font-size: 28px;
+  line-height: 32px;
+  padding-bottom: 14px;
+}
+.par2 {
+  color: #fff;
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+.check-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 14px;
+  background: #fff;
+  text-decoration: none;
+  max-width: 152px;
+}
+.check-link img {
+  width: 32px;
+  height: 32px;
+  margin: 5px 0px 5px 4px;
+}
+.check-link span {
+  color: #000;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+  padding: 9px 10px 13px 6px;
 }
 .section5-leaves {
   background-image: url("../image/section5.jpg");
