@@ -172,24 +172,27 @@ header nav ul li a {
   padding-bottom: 15px;
 }
 .gali-link {
-  display: flex;
-  align-items: center;
   border-radius: 14px;
   background: #fff;
   text-decoration: none;
   max-width: 143px;
-}
-.gali-link img {
-  width: 32px;
-  height: 32px;
-  margin: 2px 0px 2px 4px;
-}
-.gali-link span {
   color: #000;
   font-size: 16px;
   letter-spacing: 0.4px;
   padding: 9px 10px 13px 6px;
 }
+.gali-link::before {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  background-image: url("../image/circle.svg");
+ background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+padding: 4px 0px 5px 4px;
+}
+
 .third-section-mountain {
   background-image: url("../image/section3_mountain.jpg");
   background-size: cover;
@@ -213,7 +216,6 @@ header nav ul li a {
   font-size: 14px;
   padding-right: 62px;
 }
-
 .section4-photo {
   background-color: #000;
   min-height: 540px;
@@ -261,23 +263,25 @@ header nav ul li a {
   padding-bottom: 20px;
 }
 .check-link {
-  display: flex;
-  align-items: center;
   border-radius: 14px;
   background: #fff;
   text-decoration: none;
-  max-width: 152px;
-}
-.check-link img {
-  width: 32px;
-  height: 32px;
-  margin: 5px 0px 5px 4px;
-}
-.check-link span {
+  max-width: 143px;
   color: #000;
   font-size: 16px;
   letter-spacing: 0.4px;
   padding: 9px 10px 13px 6px;
+}
+.check-link::before {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  content: "";
+  background-image: url("../image/circle.svg");
+ background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+padding: 4px 0px 5px 4px;
 }
 .section5-leaves {
   background-image: url("../image/section5.jpg");
