@@ -336,6 +336,18 @@ padding: 4px 0px 5px 4px;
   justify-content: space-between;
   align-items: center;
 }
+.logo-clients{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-clients a{
+  max-width: 128px;
+  display: inline-block;
+}
+.logo-clients.owl-carousel .owl-item{
+text-align: center;
+}
 .section7 {
   background-image: url("../image/section7.jpg");
   background-size: cover;
