@@ -5,7 +5,7 @@
 
 // в том же порядке как и были в хтмл
 
-$main_font:"poppinsregular";
+$main_font: "poppinsregular";
 $main_color: #181818;
 $white_color: white;
 
@@ -15,36 +15,33 @@ $white_color: white;
   }
 }
 
-
 // margin: 10px;
 // @include max-screen (870px)
 // значение которое нужно заменить
 // margin: 0px;
 
-
-
 header {
   background-color: #181818;
   padding: 24px 0;
   .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-left: 32px;
-  padding-right: 20px;
-}
-.nav-list {
-  display: flex;
-  list-style: none;
-  align-items: center;
-}
-nav{
-    ul{
-        .li {
-  margin-left: 32px;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 32px;
+    padding-right: 20px;
+  }
+  .nav-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  nav {
+    ul {
+      .li {
+        margin-left: 32px;
+      }
     }
-}
+  }
 }
 header nav li:first-of-type {
   margin-right: 24px;
@@ -201,10 +198,10 @@ header nav ul li a {
   align-items: center;
   content: "";
   background-image: url("../image/circle.svg");
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: 32px;
   height: 32px;
-padding: 4px 0px 5px 4px;
+  padding: 4px 0px 5px 4px;
 }
 
 .third-section-mountain {
@@ -292,10 +289,10 @@ padding: 4px 0px 5px 4px;
   align-items: center;
   content: "";
   background-image: url("../image/circle.svg");
- background-repeat: no-repeat;
+  background-repeat: no-repeat;
   width: 32px;
   height: 32px;
-padding: 4px 0px 5px 4px;
+  padding: 4px 0px 5px 4px;
 }
 .section5-leaves {
   background-image: url("../image/section5.jpg");
@@ -350,59 +347,59 @@ padding: 4px 0px 5px 4px;
   justify-content: space-between;
   align-items: center;
 }
-.logo-clients{
+.logo-clients {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.logo-clients a{
+.logo-clients a {
   max-width: 128px;
   display: inline-block;
 }
-.logo-clients.owl-carousel{
+.logo-clients.owl-carousel {
   position: relative;
 }
-.logo-clients.owl-carousel .owl-item{
-text-align: center;
+.logo-clients.owl-carousel .owl-item {
+  text-align: center;
 }
-.logo-clients.owl-carousel .owl-nav .owl-prev{
+.logo-clients.owl-carousel .owl-nav .owl-prev {
   background-color: #fff;
   border-radius: 50%;
   height: 45px;
   width: 45px;
   display: block;
   position: absolute;
- left: -32px;
+  left: -32px;
   bottom: 71px;
-} 
-.logo-clients.owl-carousel .owl-nav .owl-next{
+}
+.logo-clients.owl-carousel .owl-nav .owl-next {
   background-color: #fff;
   border-radius: 50%;
   height: 45px;
   width: 45px;
   display: block;
   position: absolute;
- right: -32px;
+  right: -32px;
   bottom: 71px;
-} 
-.logo-clients.owl-carousel .owl-nav .owl-next:after{
-display: inline-block;
-content: ">";
-font-size: 30px;
-text-align: center;
 }
-.logo-clients.owl-carousel .owl-dots{
+.logo-clients.owl-carousel .owl-nav .owl-next:after {
+  display: inline-block;
+  content: ">";
+  font-size: 30px;
+  text-align: center;
+}
+.logo-clients.owl-carousel .owl-dots {
   display: flex;
- justify-content: center;
+  justify-content: center;
 }
-.logo-clients.owl-carousel .owl-dots .owl-dot{
+.logo-clients.owl-carousel .owl-dots .owl-dot {
   background-color: aqua;
   width: 10px;
   height: 10px;
   border-radius: 50%;
- margin: 30px 5px 0;
+  margin: 30px 5px 0;
 }
-.logo-clients.owl-carousel .owl-dots .owl-dot.active{
+.logo-clients.owl-carousel .owl-dots .owl-dot.active {
   background-color: red;
 }
 .section7 {
